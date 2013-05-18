@@ -1,7 +1,7 @@
 {
     "name": "mojito-alter-mojit",
     "description": "Utility mojit for mojito to control the execution workflow of a mojit, executing an alternative mojit instance when an error occur.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Caridy Patino <caridy@gmail.com>",
     "yahoo": {
         "mojito": {
@@ -14,9 +14,6 @@
         "npm": "> 1.0"
     },
     "peerDependencies": {
-        "mojito": ">0.5.5"
-    },
-    "devDependencies": {
         "mojito": ">0.5.5"
     },
     "scripts": {

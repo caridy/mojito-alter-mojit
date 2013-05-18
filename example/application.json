@@ -1,0 +1,27 @@
+[
+    {
+        "settings": [ "master" ],
+        "appPort": "8666",
+        "specs": {
+            "foo-or-bar-or-baz": {
+                "type": "mojito-alter-mojit",
+                "config": {
+                    "alters": [
+                        {
+                            "type": "foo",
+                            "config": {}
+                        },
+                        {
+                            "type": "bar",
+                            "config": {}
+                        },
+                        {
+                            "type": "baz",
+                            "config": {}
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
